@@ -1,0 +1,13 @@
+{
+  "name": "ReactJ5",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "dependencies": {
+    "johnny-five": "^0.8.84",
+    "react-native": "^0.6.0",
+    "react-native-swift-socketio": "0.0.6"
+  }
+}
