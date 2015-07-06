@@ -85,8 +85,8 @@ let ReactJ5 = React.createClass({
           <Text style={styles.welcome}>FADER</Text>
           <SliderIOS
           style={styles.slider}
-          maximumValue={255}
-          value={255}
+          maximumValue={100}
+          value={100}
           onValueChange={(value) => this._handleSlider(value)} />
         </View>
       </View>
